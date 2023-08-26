@@ -36,6 +36,8 @@ function count() {
 
   onesE.innerHTML = ones;
   tensE.innerHTML = tens;
+
+  document.title = "Counter - " + num + "";
 }
 
 function moveDown() {
